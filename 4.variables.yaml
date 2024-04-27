@@ -5,6 +5,6 @@
     Trainer: "siva"
     Duration: "120hrs"
   tasks:
-   - name: print information
+  - name: print information
     ansible.builtin.debug:
      msg: "Hi, we are learning ansible, from trainer siva, duration is 120hrs"
