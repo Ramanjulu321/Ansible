@@ -1,6 +1,6 @@
 - name: variables from inventory
   hosts: localhost
-  var:
+  vars:
   - vars.yaml
   tasks:
   - name: print information
