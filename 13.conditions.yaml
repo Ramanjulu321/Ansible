@@ -2,7 +2,7 @@
   hosts: localhost
   vars_prompt: #prompts are always considered as text/string
   - name: number
-    prompt: 9
+    prompt: please enter number
     private: no
   tasks:
   - name: number is less than 10
