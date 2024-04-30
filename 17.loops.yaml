@@ -3,7 +3,7 @@
   become: yes
   tasks:
   - name: install packages
-    ansible.builtin.packages:
+    ansible.builtin.dnf:
      name: "{{item name}}"
      state: "{{item state}}"
 
@@ -11,4 +11,3 @@
     - { name: 'mysql', state: 'latest'}
     - { name: 'nginx', state: 'latest'}
     - { name: 'postman', state: 'latest'}
-    
